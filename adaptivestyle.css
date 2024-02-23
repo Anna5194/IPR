@@ -1,0 +1,273 @@
+@media screen and (min-width:981px){
+    header{
+        padding: 30px 0 30px 0;
+    }
+    .hideMenu{
+        display: none;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 40px;
+    }
+
+    .oneSection>div{
+        padding: 200px 0px 180px 120px;
+    }
+    .oneSection>div>div{
+    margin-top: 50px;
+    }
+    .oneSection>div>div>div>img{
+        width: 20px;
+    }
+
+    .twoSection>div>div{
+        height: 100%;
+        padding: 130px 0;
+    }
+    .twoSection>div>div>h2{
+        padding-left: 120px;
+    }
+    .twoSection>div>div:first-child{
+        width: 75%;
+    }
+    .twoSection>div>div:last-child{
+        width: 25%;
+    }
+    .twoSection>div>div>img{
+        width: 26.5px;
+    }
+
+    .threeSection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .threeSection>img:first-child{
+        width: 25px;
+    }
+
+    .fourSection>div{
+        padding: 70px 100px 170px 100px;
+    }
+    .fourSection>div>p{
+        column-count: 2;
+        column-gap: 100px;
+        font-weight: 600;
+        line-height: 33px;
+    }
+}
+
+@media screen and (max-width:980px) and (min-width:641px){
+    .hideMenu{
+        display: none;
+    }
+    header{
+        padding: 30px 0 30px 0;
+    }
+    h1{ 
+        font-size: 50px; 
+    }
+    h2{
+        font-size: 30px;
+    }
+    .oneSection>div{
+        padding: 50px 0px 131px 100px;
+    }
+    .oneSection>div>div>div>img{
+        width: 20px;
+    }
+    .twoSection>div>div{
+        height: 100%;
+        padding: 50px 0;
+    }
+    .twoSection>div>div>h2{
+        padding-left: 100px;
+    }
+    .twoSection>div>div>img{
+        width: 19.5px;
+    }
+    .twoSection>div>div:first-child{
+        width: 85%;
+    }
+
+    .twoSection>div>div:last-child{
+        width: 15%;
+    }
+    .threeSection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .threeSection>img:first-child{
+        width: 25px;
+    }
+    .fourSection>div{
+        padding: 70px 100px 100px 100px;
+    }
+    .fourSection>div>p{
+        font-size: 15px;
+        line-height: 30px;
+        column-count: 2;
+        column-gap: 100px;
+    }
+    
+}
+
+@media screen and (max-width:640px) and (min-width:321px){
+    header{
+        padding: 0px 0 0px 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .hideMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hideMenu>p{
+        text-transform:capitalize;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .hideMenu>div{
+        width: 15%;
+        height: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .oneSection>div{
+        padding: 100px 0px 80px 30px;
+        width: 70%;
+    }
+    .oneSection>div>div>div>img{
+        width: 10px;
+    }
+
+    .twoSection>div>div:first-child{
+        width: 85%;
+    }
+    .twoSection>div>div:last-child{
+        width: 15%;
+    }
+    .twoSection>div>div{
+        padding: 30px 0;
+    }
+    .twoSection>div>div>h2{
+        padding-left: 30px;
+    }
+    .twoSection>div>div>img{
+        width: 10px;
+    }
+    .threeSection{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: stretch;
+        justify-items: center;
+        align-items: center;
+    }
+    .threeSection>img:first-child{
+        width: 25px;
+    }
+    .fourSection>div{
+        padding: 70px 30px 50px 30px;
+    }
+    .fourSection>div>p{
+        column-count: 1;
+        font-size: 15px;
+    }
+    .fourSection>div>h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:320px){
+    header{
+        padding: 0px 0 0px 0;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .hideMenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hideMenu>p{
+        text-transform:capitalize;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .hideMenu>div>img{
+        width: 50%;
+    }
+    .hideMenu>div{
+        width: 10%;
+        height: 100%;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .oneSection>div{
+        padding: 50px 0px 30px 30px;
+        width: 70%;
+    }
+    .oneSection>div>div{
+        margin-top: 20px;
+    }
+    .oneSection>div>div>div>img{
+        width: 5px;
+    }
+
+    .twoSection>div>div:first-child{
+        width: 85%;
+    }
+    .twoSection>div>div:last-child{
+        width: 15%;
+    }
+    .twoSection>div>div{
+        padding: 10px 0;
+    }
+    .twoSection>div>div>h2{
+        padding-left: 30px;
+    }
+    .twoSection>div>div>img{
+        width: 5px;
+    }
+    .threeSection{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: stretch;
+        justify-items: center;
+        align-items: center;
+    }
+    .threeSection>img:first-child{
+        width: 25px;
+    }
+    .fourSection>div{
+        padding: 70px 30px 50px 30px;
+    }
+    .fourSection>div>p{
+        column-count: 1;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .fourSection>div>h2{
+        font-size: 20px;
+    }
+}

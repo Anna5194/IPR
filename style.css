@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Montserrat"; /* Гарнитура шрифта */
+    src: url(fonts/ofont.ru_Montserrat.ttf); /* Путь к файлу со шрифтом */
+}
+
+body,h1,h2,.twoSection>div, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    }
+.hideMenu>p{
+    color: white;
+}
+.hideMenu>div{
+    background-color: black;
+}
+header{
+    margin: 0;
+    background-color: rgb(49, 30, 30);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+header>ul{
+    color: white;
+    list-style-type:  none;
+}
+
+header>ul>li{
+    display: inline;
+    padding-left: 30px;
+}
+header>ul>li:first-child{
+    padding-left: 50px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: rgba(255,255,255,0.7);
+}
+.oneSection{
+    background-color: rgb(9, 146, 170);
+    margin: 0;
+}
+.oneSection>div{
+    width: 70%;
+}
+.oneSection>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.twoSection{background-color: rgb(188, 49, 131);}
+.twoSection>div{
+    display: flex;
+    justify-content: space-between;
+}
+.twoSection>div>div>h2{
+    color: rgb(146,130,160);
+}
+.twoSection>div>div:first-child{
+    background-color: rgb(39, 33, 44);
+}
+.twoSection>div>div:last-child{
+    text-align: center;
+}
+.threeSection{
+    background-color: rgb(91, 15, 161);
+    display: grid;
+    justify-items: stretch;
+    justify-items: center;
+    align-items: center;
+}
+.threeSection>img{
+    width: 100%;
+    margin: 0;
+}
+.fourSection{
+    background-color: rgb(235, 235, 235);
+}
+.fourSection>div>h2{
+    color: rgb(8, 140, 165);
+}
+.fourSection>div>p{
+    color: rgb(81, 81, 81);
+}
+.fourSection>div{
+    padding: 70px 100px 100px 100px;
+}
+.fourSection>div>p{
+    font-size: 15px;
+    line-height: 30px;
+    /*column-count: 2;*/
+}
